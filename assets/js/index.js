@@ -1,0 +1,25 @@
+
+
+const menuHamburger = document.querySelector('.menu__hamburguer');
+const menu = document.querySelector('.menu-list')
+
+menuHamburger.addEventListener('click', (e) => {
+    menu.classList.toggle('menu-list-active')
+    
+});
+const swiper = new Swiper('.swiper', {
+    speed: 400,
+    spaceBetween: 10,
+    pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable:true
+    },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev'
+            
+
+        
+    },    
+});

@@ -1,0 +1,53 @@
+@import "../variable.css";
+@import "../style.css";
+@import "../style/sobrenos.css";
+@import "..style/contato/contato.css";
+
+.header {
+  padding: 1rem 0 1rem 0;
+  background: var(--color-primary);
+  @media (max-width: 1024px) {
+    padding: 1rem 16px;
+  }
+}
+.logo_nome img {
+  width: 90px;
+}
+.menu_logo {
+  display: none;
+}
+
+.header__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-list {
+  display: flex;
+  gap: 3rem;
+  font-weight: 600;
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+.menu__hamburguer {
+  width: 20px;
+  display: none !important;
+  @media (max-width: 768px) {
+    display: block !important;
+  }
+}
+
+.menu-list-active {
+  display: flex;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  background: var(--color-font);
+  left: 0;
+  top: 115px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  height: 100%;
+}

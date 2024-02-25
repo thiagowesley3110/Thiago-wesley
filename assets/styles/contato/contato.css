@@ -1,0 +1,39 @@
+@import "../variable.css";
+
+.contato__form {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  align-items: center;
+  height: 100%;
+  @media (max-width: 1024px) {
+    padding: 1rem 16px;
+  }
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+.card__form {
+  background-color: var(--color-primary);
+  box-shadow: 0px 1px 8px var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em 2em;
+  height: 70vh;
+  border-radius: 15px;
+  width: 100%;
+}
+.card__contato {
+  background-color: var(--color-primary);
+  box-shadow: 0px 1px 8px var(--color-primary);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  justify-content: center;
+  text-align: center;
+  padding: 1em 2em;
+  height: 70vh;
+}

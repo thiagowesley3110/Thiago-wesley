@@ -1,0 +1,89 @@
+@import "../variable.css";
+
+/*banner*/
+.banner {
+  position: relative;
+  z-index: 1;
+}
+.menu_list-link {
+  color: var(--color-secundary);
+}
+
+.swiper-slide img {
+  width: 100%;
+}
+/*produtos*/
+.card_produtos img {
+  width: 10em;
+}
+.card_produtos {
+  width: 250px;
+  height: 380px;
+  text-align: center;
+  background-color: var(--color-primary);
+  border-radius: 15px;
+  font-family: var(--font-family);
+  margin: 2em;
+  padding: 1em;
+}
+.titulo {
+  font-size: 1.5em;
+  font-weight: 600;
+  padding: 0.5em;
+}
+.descricao {
+  color: var(--color-descricao);
+  font-size: 0.8em;
+}
+.preco {
+  background-color: var(--color-secundary);
+  color: var(--color-primary);
+  margin-top: 1em;
+
+  padding: 1em;
+}
+.preco:hover {
+  background-color: #587788;
+}
+.produtos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+/*footer*/
+
+.img__footer img {
+  width: 50px;
+}
+.container_footer {
+  display: flex;
+  gap: 3em;
+  justify-content: space-between;
+  padding: 1em;
+  align-items: center;
+  @media (max-width: 768px) {
+    display: block !important;
+    text-align: center;
+  }
+}
+.todos_direitos_autorais {
+  text-align: center;
+}
+.rodape {
+  background-color: var(--color-primary);
+  padding: 2em;
+  margin-top: 1em;
+}
+.redesSociais {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  @media (max-width: 768px) {
+    display: flex !important;
+    text-align: center;
+    justify-content: center;
+    padding: 1em 0;
+  }
+}

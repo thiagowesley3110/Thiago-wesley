@@ -1,0 +1,23 @@
+@import ".assets/styles/header/header.css";
+
+:root {
+  --color-font: #191717;
+  --color-primary: #fff;
+  --font-family: "Poppins", sans-serif;
+  --color-descricao: #7d7c7c;
+  --color-secundary: #6096b4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-secundary);
+  font-family: var(--font-family);
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
