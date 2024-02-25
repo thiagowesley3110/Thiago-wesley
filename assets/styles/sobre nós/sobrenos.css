@@ -69,12 +69,21 @@
   padding: 1em 2em;
   margin: 0 auto;
 }
-.banner{
+.banner__sobre{
   width: 100%;
   margin: 1em auto;
   text-align: center;
   
+  
 }
-.banner img{
+.banner__sobre img{
   border-radius: 5px;
+  @media (max-width: 1024px) {
+    width:100% ;
+    display: block;
+    padding: 0 1em;
+    
+       
+  }
+  
 }
