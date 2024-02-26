@@ -17,8 +17,7 @@
   width: 10em;
 }
 .card_produtos {
-  width: 250px;
-  height: 380px;
+  height: 400px;
   text-align: center;
   background-color: var(--color-primary);
   border-radius: 15px;
@@ -46,10 +45,9 @@
   background-color: #587788;
 }
 .produtos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  
 }
 
 /*footer*/
