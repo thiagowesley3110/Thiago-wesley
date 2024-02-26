@@ -33,12 +33,13 @@
 .descricao {
   color: var(--color-descricao);
   font-size: 0.8em;
+  
 }
 .preco {
   background-color: var(--color-secundary);
   color: var(--color-primary);
-  margin-top: 1em;
-
+  
+  margin: 2em 0;
   padding: 1em;
 }
 .preco:hover {
