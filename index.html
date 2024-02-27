@@ -25,15 +25,30 @@
     <header class="header">
         <div class="header__box container">
             <a href="index.html" class="logo_nome"><img src="image/download.png" alt="logo-ideal"></a>
-            <nav class="menu">
+            <nav class="menu ">
 
                 <img class="menu__hamburguer" src="image/menu hambuguer.png" alt="">
 
-                <ul class="menu-list">
+                <ul class="menu-list menu">
                     <li class="menu_list-item menu_list-active"><a href="index.html" class="menu_list-link">HOME</a>
                     </li>
-                    <li class="menu_list-item menu_list-active"><a href="sobre nos.html" class="menu_list-link">SOBRE
-                            NÓS</a></li>
+                    <li class="menu_list-item menu_list-active"><a href="index.html" class="menu_list-link">EMPRESA</a>
+                        <ul class="submenu">
+                            <li class="menu__item"><a href="#" class="submenu__link">SUBMENU1</a></li>
+                            <li class="menu__item"><a href="#" class="submenu__link">SUBMENU1</a></li>
+                            <li class="menu__item"><a href="#" class="submenu__link">SUBMENU1</a></li>
+                            <li class="menu__item submenu2"><a href="#" class="submenu__link">SUBMENU1</a>
+                                <ul class="subsubmenu">
+                                    <li class="menu__item"><a href="#" class="submenu__link">SUBMENU2</a></li>
+                                    <li class="menu__item"><a href="#" class="submenu__link">SUBMENU2</a></li>
+                                    <li class="menu__item"><a href="#" class="submenu__link">SUBMENU2</a></li>
+                                    <li class="menu__item"><a href="#" class="submenu__link">SUBMENU2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu_list-item menu_list-active"><a href="sobre nos.html"
+                            class="menu_list-link">CLIENTE</a></li>
                     <li class="menu_list-item menu_list-active"><a href="contato.html"
                             class="menu_list-link">CONTATO</a></li>
 
@@ -42,7 +57,7 @@
         </div>
     </header>
     <section class="banner">
-        <div class="banner__box">
+        <div class="banner__box container">
             <div class="swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" class="img_slide"><img src="image/1.png" alt="imagem-1"></div>
@@ -57,56 +72,42 @@
             </div>
         </div>
     </section>
-    <section class="produtos container">
-        <div class="card_produtos container">
-            <img class="imagem_produto" src="image/iPhone-13-Pro-No-Backgorund-PNG-Image-Pngsource-DHZC81LR.png"
-                alt="IPHONE">
-            <h3 class="titulo">Iphone 13 PRO</h3>
-            <span class="descricao"> 128GB Câmera Dupla,O aparelho apresenta 14.6cm de altura e 7.15cm de largura, com
-                peso de 173.0g.</span>
-            <p class="preco">R$ 899,00</p>
-        </div>
-        <div class="card_produtos container">
-            <img class="imagem_produto" src="image/iPhone-13-Pro-No-Backgorund-PNG-Image-Pngsource-DHZC81LR.png"
-                alt="IPHONE">
-            <h3 class="titulo">Iphone 13 PRO</h3>
-            <span class="descricao"> 128GB Câmera Dupla,O aparelho apresenta 14.6cm de altura e 7.15cm de largura, com
-                peso de 173.0g.</span>
-            <p class="preco">R$ 899,00</p>
-        </div>
-        <div class="card_produtos container">
-            <img class="imagem_produto" src="image/iPhone-13-Pro-No-Backgorund-PNG-Image-Pngsource-DHZC81LR.png"
-                alt="IPHONE">
-            <h3 class="titulo">Iphone 13 PRO</h3>
-            <span class="descricao"> 128GB Câmera Dupla,O aparelho apresenta 14.6cm de altura e 7.15cm de largura, com
-                peso de 173.0g.</span>
-            <p class="preco">R$ 899,00</p>
-        </div>
-        <div class="card_produtos container">
-            <img class="imagem_produto" src="image/iPhone-13-Pro-No-Backgorund-PNG-Image-Pngsource-DHZC81LR.png"
-                alt="IPHONE">
-            <h3 class="titulo">Iphone 13 PRO</h3>
-            <span class="descricao"> 128GB Câmera Dupla,O aparelho apresenta 14.6cm de altura e 7.15cm de largura, com
-                peso de 173.0g.</span>
-            <p class="preco">R$ 899,00</p>
-        </div>
-        <div class="card_produtos container">
-            <img class="imagem_produto" src="image/iPhone-13-Pro-No-Backgorund-PNG-Image-Pngsource-DHZC81LR.png"
-                alt="IPHONE">
-            <h3 class="titulo">Iphone 13 PRO</h3>
-            <span class="descricao"> 128GB Câmera Dupla,O aparelho apresenta 14.6cm de altura e 7.15cm de largura, com
-                peso de 173.0g.</span>
-            <p class="preco">R$ 899,00</p>
-        </div>
-        <div class="card_produtos container">
-            <img class="imagem_produto" src="image/iPhone-13-Pro-No-Backgorund-PNG-Image-Pngsource-DHZC81LR.png"
-                alt="IPHONE">
-            <h3 class="titulo">Iphone 13 PRO</h3>
-            <span class="descricao"> 128GB Câmera Dupla,O aparelho apresenta 14.6cm de altura e 7.15cm de largura, com
-                peso de 173.0g.</span>
-            <p class="preco">R$ 899,00</p>
-        </div>
-    </section>
+    <main class="content">
+        <section class="banner__img container">
+            <img src="image/imagem banner 2.png" alt="tecnologia">
+        </section>
+        <section class="produtos container">
+            <div class="card_produtos container">
+                <img class="imagem_produto" src="image/iPhone-13-Pro-No-Backgorund-PNG-Image-Pngsource-DHZC81LR.png"
+                    alt="IPHONE"><br>
+                <h3 class="descricao"> <a href="#" class="descricao">128GB Câmera Dupla,O aparelho apresenta 14.6cm de
+                        altura e 7.15cm de largura, com
+                        peso de 173.0g.</a></h3>
+            </div>
+            <div class="card_produtos container">
+                <img class="imagem_produto" src="image/iPhone-13-Pro-No-Backgorund-PNG-Image-Pngsource-DHZC81LR.png"
+                    alt="IPHONE"><br>
+                <h3 class="descricao"> <a href="#" class="descricao">128GB Câmera Dupla,O aparelho apresenta 14.6cm de
+                        altura e 7.15cm de largura, com
+                        peso de 173.0g.</a></h3>
+            </div>
+            <div class="card_produtos container">
+                <img class="imagem_produto" src="image/iPhone-13-Pro-No-Backgorund-PNG-Image-Pngsource-DHZC81LR.png"
+                    alt="IPHONE"><br>
+                <h3 class="descricao"> <a href="#" class="descricao">128GB Câmera Dupla,O aparelho apresenta 14.6cm de
+                        altura e 7.15cm de largura, com
+                        peso de 173.0g.</a></h3>
+            </div>
+            <div class="card_produtos container">
+                <img class="imagem_produto" src="image/iPhone-13-Pro-No-Backgorund-PNG-Image-Pngsource-DHZC81LR.png"
+                    alt="IPHONE"><br>
+                <h3 class="descricao"> <a href="#" class="descricao">128GB Câmera Dupla,O aparelho apresenta 14.6cm de
+                        altura e 7.15cm de largura, com
+                        peso de 173.0g.</a></h3>
+            </div>
+
+        </section>
+    </main>
     <footer class="rodape">
         <section class="footer__card container">
             <div class="container_footer">

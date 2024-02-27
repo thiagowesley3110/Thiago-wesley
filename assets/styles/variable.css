@@ -6,6 +6,7 @@
   --font-family: "Poppins", sans-serif;
   --color-descricao: #7d7c7c;
   --color-secundary: #6096b4;
+  --color-bg-btn:#025cf7;
 }
 
 * {
@@ -13,7 +14,7 @@
 }
 
 body {
-  background-color: var(--color-secundary);
+  background-color: var(--color-primary);
   font-family: var(--font-family);
 }
 

@@ -4,14 +4,13 @@
 @import "..style/contato/contato.css";
 
 .header {
-  padding: 1rem 0 1rem 0;
   background: var(--color-primary);
   @media (max-width: 1024px) {
     padding: 1rem 16px;
   }
 }
 .logo_nome img {
-  width: 90px;
+  width: 150px;
 }
 .menu_logo {
   display: none;
@@ -24,11 +23,14 @@
 }
 .menu-list {
   display: flex;
-  gap: 3rem;
+  column-gap: 3rem;
   font-weight: 600;
   @media (max-width: 768px) {
     display: none;
   }
+}
+.menu_list-item a {
+  text-decoration: none;
 }
 .menu__hamburguer {
   width: 20px;
@@ -52,8 +54,58 @@
   height: 100%;
 }
 
-.cartao{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+.menu li{
+  display: inline-block;
+  position: relative;
+  
+}
+.menu li a{
+  display: block;
+}
+.submenu{
+  display: none;
+  position: absolute;
+  padding-top: 1em;
+  @media (max-width: 768px) {
+    display: none !important;
+  }
+}
+.menu li:hover .submenu{
+  display: block;
+  z-index: 5;
+}
+.menu__item{
+  background-color: var(--color-secundary);
+  
+  padding: 0.8em;
+}
+.menu__item:hover{
+  background-color: var(--color-bg-btn);
+}
+.submenu__link{
+  color:var(--color-primary)
+}
+.menu__lista2{
+  position: absolute;
+  left: 115px;
+  top: 0px;
+  @media (max-width: 768px) {
+    display: none !important;
+  }
 
 }
+.subsubmenu{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 115px;
+}
+.submenu li:hover .subsubmenu {
+  display: block;
+}
+
+.cartao {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+

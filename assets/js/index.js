@@ -7,6 +7,8 @@ menuHamburger.addEventListener('click', (e) => {
     menu.classList.toggle('menu-list-active')
     
 });
+
+
 const swiper = new Swiper('.swiper', {
     speed: 400,
     spaceBetween: 10,
