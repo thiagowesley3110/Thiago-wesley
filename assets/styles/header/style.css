@@ -81,6 +81,12 @@
   align-items: center;
   gap: 3em;
   background-color: var(--color-primary);
+  @media (max-width: 768px) {
+    font-size: 0.8em;
+    padding: 1em 2em
+    
+  }
+  
 }
 .lista__footer {
   display: flex;
