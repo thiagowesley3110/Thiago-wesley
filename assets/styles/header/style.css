@@ -18,11 +18,28 @@
   padding-top: 1em;
   display: flex;
   flex-direction: row-reverse;
+  @media (max-width: 1024px) {
+    padding: 1em 1.62em;
+  }
+  @media (max-width: 500px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.banner__img img{
+  @media (max-width: 500px) {
+    width: 300px;
+  }
 }
 /*produtos*/
+
+.content{
+  padding-bottom: 2em;
+}
 .produtos {
   padding-top: 2em;
 }
+
 .card_produtos img {
   width: 10em;
 }
@@ -35,29 +52,21 @@
   margin: 2em;
   padding: 1em;
 }
-.titulo {
+.descricao a{
+  
+  font-size: 1.3em;
+  text-decoration: none;
+}
+.descricao{
+  
   font-size: 1.5em;
-  font-weight: 600;
-  padding: 0.5em;
-}
-.descricao {
-  width: 100%;
   text-align: center;
-  color: var(--color-descricao);
-  font-size: 0.8em;
-  padding-top: 1.5em;
-}
-.preco {
-  background-color: var(--color-secundary);
   color: var(--color-primary);
-
-  margin: 2em 0;
-  padding: 1em;
-}
-.preco:hover {
-  background-color: #587788;
+  font-size: 0.8em;
+  
 }
 .produtos {
+  width: 100VW;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   @media (max-width: 768px) {
@@ -69,36 +78,24 @@
 
 /*footer*/
 
-.img__footer img {
-  width: 50px;
-}
-.container_footer {
-  display: flex;
+.rodape{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
   gap: 3em;
-  justify-content: space-between;
-  padding: 1em;
-  align-items: center;
-  @media (max-width: 768px) {
-    display: block !important;
-    text-align: center;
-  }
-}
-.todos_direitos_autorais {
-  text-align: center;
-}
-.rodape {
   background-color: var(--color-primary);
-  padding: 2em;
-  margin-top: 1em;
 }
-.redesSociais {
+.lista__footer{
   display: flex;
-  gap: 1em;
-  align-items: center;
-  @media (max-width: 768px) {
-    display: flex !important;
-    text-align: center;
-    justify-content: center;
-    padding: 1em 0;
-  }
+  gap: 2em;
+  padding-top: 1em;
+}
+.footer__link{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--color-font);
+  font-weight: 530;
+}
+.rodape h3{
+  padding-bottom: 1em;
 }
