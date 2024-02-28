@@ -14,13 +14,13 @@
 }
 
 /*imagem banner*/
-.banner__img{
+.banner__img {
   padding-top: 1em;
   display: flex;
   flex-direction: row-reverse;
 }
 /*produtos*/
-.produtos{
+.produtos {
   padding-top: 2em;
 }
 .card_produtos img {
@@ -28,7 +28,6 @@
 }
 
 .card_produtos {
-  height: 400px;
   text-align: center;
   background-color: var(--color-primary);
   border-radius: 15px;
@@ -47,12 +46,11 @@
   color: var(--color-descricao);
   font-size: 0.8em;
   padding-top: 1.5em;
-  
 }
 .preco {
   background-color: var(--color-secundary);
   color: var(--color-primary);
-  
+
   margin: 2em 0;
   padding: 1em;
 }
@@ -66,10 +64,7 @@
     padding: 0 0.9em;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    
   }
-  
-  
 }
 
 /*footer*/
