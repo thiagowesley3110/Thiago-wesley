@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre-Nós</title>
+    <title>CLIENTE</title>
     <link rel="stylesheet" href="assets/styles/reset.css">
     <link rel="stylesheet" href="assets/styles/index.css">
     <link rel="stylesheet" href="./assets/styles/header/header.css">
@@ -24,13 +24,30 @@
     <header class="header">
         <div class="header__box container">
             <a href="index.html" class="logo_nome"><img src="image/download.png" alt="logo-ideal"></a>
-            <nav class="menu">
+            <nav class="menu ">
+
                 <img class="menu__hamburguer" src="image/menu hambuguer.png" alt="">
-                <ul class="menu-list">
+
+                <ul class="menu-list menu">
                     <li class="menu_list-item menu_list-active"><a href="index.html" class="menu_list-link">HOME</a>
                     </li>
-                    <li class="menu_list-item menu_list-active"><a href="sobre nos.html" class="menu_list-link">SOBRE
-                            NÓS</a></li>
+                    <li class="menu_list-item menu_list-active"><a href="#" class="menu_list-link">EMPRESA</a>
+                        <ul class="submenu">
+                            <li class="menu__item"><a href="#" class="submenu__link">SUBMENU1</a></li>
+                            <li class="menu__item"><a href="#" class="submenu__link">SUBMENU1</a></li>
+                            <li class="menu__item"><a href="#" class="submenu__link">SUBMENU1</a></li>
+                            <li class="menu__item submenu2"><a href="#" class="submenu__link">SUBMENU1</a>
+                                <ul class="subsubmenu">
+                                    <li class="menu__item"><a href="#" class="submenu__link">SUBSUBMENU2</a></li>
+                                    <li class="menu__item"><a href="#" class="submenu__link">SUBSUBMENU2</a></li>
+                                    <li class="menu__item"><a href="#" class="submenu__link">SUBSUBMENU2</a></li>
+                                    <li class="menu__item"><a href="#" class="submenu__link">SUBSUBMENU2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu_list-item menu_list-active"><a href="cliente.html"
+                            class="menu_list-link">CLIENTE</a></li>
                     <li class="menu_list-item menu_list-active"><a href="contato.html"
                             class="menu_list-link">CONTATO</a></li>
 
@@ -78,25 +95,15 @@
 
 
     </main>
-    <footer>
-        <footer class="rodape">
-            <section class="footer__card container">
-                <div class="container_footer">
-                    <h3>IDEALTRENDS</h3>
-                    <P>CNPJ:00.000.000/0000-00</P>
-                    <ul class="redesSociais">
-                        <li class="img__footer"><a href="https://www.linkedin.com/"><img src="image/174857.png"
-                                    alt="linkedin"></a></li>
-                        <li class="img__footer"><a href="https://www.facebook.com/"><img src="image/facebook.png"
-                                    alt="Facebook"></a></li>
-                        <li class="img__footer"><a href="https://www.instagram.com/"><img
-                                    src="image/Instagram_icon.png.webp" alt=""></a></li>
-                    </ul>
-                </div>
-                <p class="todos_direitos_autorais">Todos os direitos reservados &copy;2024 -
-            </section>
-        </footer>
-
+    <footer class="rodape">
+        <ul class="lista__footer">
+            <li class="footer__nav"><a class="footer__link" href="index.html">Home</a></li>
+            <li class="footer__nav"><a class="footer__link" href="#">EMPRESA</a></li>
+            <li class="footer__nav"><a class="footer__link" href="cliente.html">CLIENTE</a></li>
+            <li class="footer__nav"><a class="footer__link" href="contato.html">CONTATO</a></li>
+        </ul>
+        <h3>RODA PÉ</h3>
+    </footer>
 
 
 

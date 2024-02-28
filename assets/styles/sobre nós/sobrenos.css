@@ -28,7 +28,7 @@
 }
 .missao {
   width: 100%;
-  
+
   display: flex;
   text-align: center;
   justify-content: center;
@@ -48,13 +48,13 @@
 .card {
   display: flex;
   flex-direction: column;
-  color:var(--color-primary); 
+  color: var(--color-primary);
   width: 30%;
   height: 300px;
 }
-.card_segundo-titulo{
+.card_segundo-titulo {
   font-size: 1.5em;
-  color:var(--color-primary);
+  color: var(--color-primary);
 }
 .card h3 {
   font-size: 3em;
@@ -63,27 +63,22 @@
 .card p {
   padding: 1em 1em;
 }
-.botao{
-  background-color:var(--color-primary);
+.botao {
+  background-color: var(--color-primary);
   color: var(--color-font);
   padding: 1em 2em;
   margin: 0 auto;
 }
-.banner__sobre{
+.banner__sobre {
   width: 100%;
   margin: 1em auto;
   text-align: center;
-  
-  
 }
-.banner__sobre img{
+.banner__sobre img {
   border-radius: 5px;
   @media (max-width: 1024px) {
-    width:100% ;
+    width: 100%;
     display: block;
     padding: 0 1em;
-    
-       
   }
-  
 }

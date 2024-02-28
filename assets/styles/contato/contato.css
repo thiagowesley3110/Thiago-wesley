@@ -4,8 +4,10 @@
   display: flex;
   justify-content: center;
   margin-top: 1em;
+  padding-bottom: 1em;
   align-items: center;
   height: 100%;
+  
   @media (max-width: 1024px) {
     padding: 1rem 16px;
   }
