@@ -20,53 +20,61 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__box container">
-            <a href="index.html" class="logo_nome"><img src="image/download.png" alt="logo-ideal"></a>
-            <nav class="menu ">
-
-                <img class="menu__hamburguer" src="image/menu hambuguer.png" alt="">
-
-                <ul class="menu-list menu">
-                    <li class="menu_list-item menu_list-active"><a href="index.html" class="menu_list-link">HOME</a>
-                    </li>
-                    <li class="menu_list-item menu_list-active"><a href="#" class="menu_list-link">EMPRESA</a>
-                        <ul class="submenu">
-                            <li class="menu__item"><a href="#" class="submenu__link">SUBMENU1</a></li>
-                            <li class="menu__item"><a href="#" class="submenu__link">SUBMENU1</a></li>
-                            <li class="menu__item"><a href="#" class="submenu__link">SUBMENU1</a></li>
-                            <li class="menu__item submenu2"><a href="#" class="submenu__link">SUBMENU1</a>
-                                <ul class="subsubmenu">
-                                    <li class="menu__item"><a href="#" class="submenu__link">SUBSUBMENU2</a></li>
-                                    <li class="menu__item"><a href="#" class="submenu__link">SUBSUBMENU2</a></li>
-                                    <li class="menu__item"><a href="#" class="submenu__link">SUBSUBMENU2</a></li>
-                                    <li class="menu__item"><a href="#" class="submenu__link">SUBSUBMENU2</a></li>
+        <section class="container header__principal">
+                <a href="#"><img src="image/download.png" alt=""></a>
+            <input type="checkbox" id="menu-bar"/>
+            <label class="botao" for="menu-bar">MENU</label>
+            <nav class="navbar menu_list">
+                <ul class="menu_list">
+                    <li><a href="#"> HOME</a></li>
+                    <li><a href="#"> EMPRESA +</a>
+                        <ul>
+                            <li><a href="#">SUBMENU-1</a></li>
+                            <li><a href="#">SUBMENU-1</a></li>
+                            <li><a href="#">SUBMENU-1</a></li>
+                            <li><a href="#">SUBMENU-1</a>
+                                <ul>
+                                    <li><a href="#">SUBSUBMENU-2</a></li>
+                                    <li><a href="#">SUBSUBMENU-2</a></li>
+                                    <li><a href="#">SUBSUBMENU-2</a></li>
+                                    <li><a href="#">SUBSUBMENU-2</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </li>
-                    <li class="menu_list-item menu_list-active"><a href="cliente.html"
-                            class="menu_list-link">CLIENTE</a></li>
-                    <li class="menu_list-item menu_list-active"><a href="contato.html"
-                            class="menu_list-link">CONTATO</a></li>
-
+                    <li><a href="#"> CLIENTE</a></li>
+                    <li><a href="#"> CONTATO +</a>
+                        <ul>
+                            <li><a href="#">FOTOS</a></li>
+                            <li><a href="#">VIDEOS</a></li>
+                        </ul>
+                    </li>
+                    
                 </ul>
             </nav>
-        </div>
+        </section>
     </header>
     <section class="banner">
         <div class="banner__box container">
             <div class="swiper">
+                <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
+                  <!-- Slides -->
                     <div class="swiper-slide" class="img_slide"><img src="image/1.png" alt="imagem-1"></div>
                     <div class="swiper-slide" class="img_slide"><img src="image/2.png" alt="imagem-2"></div>
                     <div class="swiper-slide" class="img_slide"><img src="image/3.png" alt="imagem-3"></div>
-                    ...
+                  ...
                 </div>
+                <!-- If we need pagination -->
                 <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
+              
+                <!-- If we need scrollbar -->
                 <div class="swiper-scrollbar"></div>
-            </div>
+              </div>
         </div>
     </section>
     <main class="content container">

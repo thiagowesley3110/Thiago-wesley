@@ -4,6 +4,7 @@
 .banner {
   position: relative;
   z-index: 1;
+  padding-top: 9em;
 }
 .menu_list-link {
   color: var(--color-secundary);
@@ -43,7 +44,10 @@
 .card_produtos img {
   width: 10em;
 }
-
+.cartao {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
 .card_produtos {
   text-align: center;
   background-color: var(--color-primary);
